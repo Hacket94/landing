@@ -32,6 +32,7 @@ nav {
     width: 600px;
     color: rgb(145, 82, 204);
     font-family: 'Anton', sans-serif;
+
     
 
 }
@@ -63,11 +64,11 @@ a {
 }
 
 a {
-    background-image: linear-gradient(rgb(216, 49, 216)  , currentcolor);
+    background-image:linear-gradient(rgb(216, 49, 216)  , currentcolor);
     background-position: 0% 100%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
-    transition: background-size .2s;
+    transition:  .1s;
 }
 a:hover, a:focus {
     background-size: 100% 2px;
@@ -94,9 +95,6 @@ a:hover, a:focus {
     display: flex;
     align-items: center;
     margin-top: 30px;
-
-
-    
     
 }
 main{
@@ -106,3 +104,9 @@ main{
     align-items: center;
 
 }
+.terminos{
+    background-color: rgba(0, 255, 255, 0.096);
+    text-align: center;
+}
+    
+
